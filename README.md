@@ -6,7 +6,21 @@ TEOS is a **sovereign digital public infrastructure (DPI) reference architecture
 TEOS is **not a crypto platform** and **not a speculative product**. It is designed for **institutional review**, **public-sector readiness**, and **controlled pilot scoping** under existing legal, regulatory, and procurement frameworks.
 
 ---
+## What TEOS Is / Is Not
 
+**TEOS is:**
+
+- A sovereign DPI reference architecture
+- A set of conceptual modules and flows for identity, governance, finance, assets, and oversight
+- A toolkit for institutional dialogue and controlled, compliance-first pilots
+
+**TEOS is not:**
+
+- A consumer crypto platform
+- An investment product or token
+- A promise of deployment, procurement, or statutory replacement
+
+  
 ## Core Principles
 - **Compliance-First** — audit-ready, regulation-aligned, safeguards-aware design
 - **Sovereignty** — national control over identity, governance, and data policy
