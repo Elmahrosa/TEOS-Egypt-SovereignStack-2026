@@ -1,22 +1,27 @@
-# Governance Lifecycle
-
-1. Proposal submission
-2. Compliance checks
-3. Voting and approval
-4. Execution
-5. Monitoring
-6. Immutable audit trail
 # Repository Governance
 
-This repository provides a sovereign DPI reference architecture and supporting documentation.
+This repository documents a **sovereign DPI reference architecture**.  
+It is intended for institutional review, not for speculative promotion.
 
-## Contributions
-- Contributions may be accepted if aligned with institutional posture:
-  - compliance-first language
-  - audit-ready framing
-  - SDG and M&E clarity
-  - non-promissory, non-speculative positioning
+## Content Standards
 
-## Standards
-- Prefer institutional terms: DPI, safeguards, M&E, auditability
-- Avoid: token marketing, price discussion, speculative roadmap claims
+Contributions should align with the following posture:
+
+- **Compliance-First Language**
+  - Emphasize safeguards, regulatory alignment, and auditability.
+- **Institutional Framing**
+  - Use terms such as Digital Public Infrastructure (DPI), safeguards, M&E, and oversight.
+- **Non-Speculative Positioning**
+  - Avoid token marketing, price discussion, or roadmap claims that sound like investment promises.
+
+## Governance Lifecycle (Documentation Context)
+
+Changes to this reference architecture should:
+
+1. Be proposed via issues or pull requests with clear rationale.
+2. Consider policy, compliance, and institutional-readiness implications.
+3. Preserve the non-committal, reference-only nature of the materials.
+4. Include updates to diagrams and cross-references where relevant.
+5. Maintain auditability of changes via version control history.
+
+For the **system governance lifecycle** (identity → governance → compliance → execution → monitoring), see `governance/governance-lifecycle.md`.
