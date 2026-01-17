@@ -1,0 +1,18 @@
+flowchart TB
+  A["Authorized Actor"] --> P["Proposal"]
+  P --> E["Eligibility (T-ID)"]
+  E --> C["Compliance Gate (T-Audit)"]
+  C -->|Pass| V["Vote (T-Gov)"]
+  C -->|Fail| R["Return / Reject with Reasons"]
+
+  V -->|Approved| X["Execute (T-Finance / T-RWA)"]
+  V -->|Rejected| CL["Close Proposal"]
+
+  X --> M["Monitor (KPIs / SDG outputs)"]
+  M --> REP["Report (T-API → Dashboards)"]
+
+  AT["Immutable Audit Trail"] -.-> P
+  AT -.-> C
+  AT -.-> V
+  AT -.-> X
+  AT -.-> REP
