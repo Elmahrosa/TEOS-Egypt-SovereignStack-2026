@@ -1,0 +1,9 @@
+TEOS-Egypt-SovereignStack-2026/
+ ├── docs/
+ ├── demos/
+ ├── dashboards/
+ ├── governance/
+ ├── scripts/
+ │    └── package_institutional_zip.py
+ ├── README.md
+ └── ...
