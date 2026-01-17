@@ -1,4 +1,4 @@
-# TEOS-Egypt-SovereignStack-2026
+# TEOS-Egypt-SovereignStack-2026  
 # TEOS — Sovereign Digital Public Infrastructure  
 **v1.0 Reference Architecture**
 
@@ -16,22 +16,22 @@ It is **not** a procurement request, **not** a deployment commitment, and **not*
 
 ## 🌍 Core Principles
 
-- **Sovereignty** — Neutral, country‑agnostic design; no lock‑in.  
-- **Compliance‑first** — Audit‑ready, regulator‑aligned safeguards.  
-- **Policy‑ready** — Institutional framing, not startup hype.  
-- **SDG Alignment** — Monitoring & Evaluation logic mapped to UN Sustainable Development Goals.  
-- **Interoperability** — Modular architecture across multiple chains and APIs.  
+- **Sovereignty** — Neutral, country‑agnostic design; no lock‑in  
+- **Compliance‑first** — Audit‑ready, regulator‑aligned safeguards  
+- **Policy‑ready** — Institutional framing, not startup hype  
+- **SDG Alignment** — Monitoring & Evaluation logic mapped to UN Sustainable Development Goals  
+- **Interoperability** — Modular architecture across multiple chains and APIs  
 
 ---
 
 ## 🧩 Architecture Overview
 
-- **Identity** — Secure, sovereign digital identity modules.  
-- **Governance** — Transparent, auditable governance workflows.  
-- **Finance** — Regulated digital finance rails.  
-- **Infrastructure** — Assets, registries, and APIs.  
-- **Compliance & Audit** — Safeguards for regulators and MDBs.  
-- **Dashboards** — SDG and FDI monitoring.  
+- **Identity** — Secure, sovereign digital identity modules  
+- **Governance** — Transparent, auditable governance workflows  
+- **Finance** — Regulated digital finance rails  
+- **Infrastructure** — Assets, registries, and APIs  
+- **Compliance & Audit** — Safeguards for regulators and MDBs  
+- **Dashboards** — SDG and FDI monitoring  
 
 Detailed documentation is available in `/docs/architecture.md`.
 
@@ -59,8 +59,24 @@ For offline institutional review, download the full repository as a ZIP:
 ## 📌 Status
 
 - **Version:** v1.0 — Sovereign Stack Reference Architecture  
-- **Status:** Institution‑ready, country‑agnostic  
+- **Scope:** Global, country‑agnostic  
+- **Readiness:** Institution‑ready  
 - **Audience:** Governments, regulators, MDBs, DFIs, institutional partners  
+
+---
+
+## 🌐 What TEOS Enables
+
+- Sovereign digital identity  
+- Transparent governance and voting  
+- Regulated financial infrastructure  
+- Asset and infrastructure registries  
+- FDI, ESG, and SDG monitoring  
+
+---
+
+**TEOS — Digital Public Infrastructure**  
+_From Egypt to the world._
 
 ---
 
