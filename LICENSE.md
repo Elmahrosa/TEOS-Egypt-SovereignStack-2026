@@ -1,10 +1,25 @@
-This repository is provided as a reference architecture only.
-
-No deployment, commercialization, or procurement commitment is implied.
 # License (Reference Architecture)
 
-This repository is published as a **reference architecture** for institutional review, technical dialogue, and controlled pilot scoping.
+This repository is published as a **reference architecture** for:
 
-No procurement commitment, deployment obligation, or statutory replacement is implied by publication of these materials.
+- Institutional review
+- Technical and policy dialogue
+- Controlled pilot scoping
 
-If your institution requires specific licensing terms, contact the authoring organization for clarification.
+## Usage
+
+Unless otherwise stated:
+
+- You may **read, share, and discuss** these materials for non-commercial institutional purposes.
+- Any reuse, adaptation, or implementation is at your own risk and must comply with applicable laws and regulations.
+- No warranty or guarantee of fitness for purpose is provided.
+
+## No Commitment
+
+Publication of this repository:
+
+- Does **not** constitute a procurement commitment
+- Does **not** imply deployment, commercialization, or statutory replacement
+- Does **not** create any obligation on the part of the authors or affiliated institutions
+
+If your institution requires specific licensing terms (e.g., for derivative documentation or pilot work), contact the authoring organization for clarification.
