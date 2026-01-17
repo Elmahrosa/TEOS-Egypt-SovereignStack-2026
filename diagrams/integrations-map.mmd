@@ -1,0 +1,23 @@
+flowchart TB
+  subgraph TEOS["TEOS Stack"]
+    CORE["Core Modules"]
+    AUD["T-Audit"]
+    API["T-API"]
+    CORE --> AUD --> API
+  end
+
+  subgraph CHAINS["Ecosystems"]
+    PI["Pi Network"]
+    ETH["Ethereum"]
+    SOL["Solana"]
+    BTC["Bitcoin"]
+    BASE["Base"]
+    BNB["BNB"]
+  end
+
+  PI --> API
+  ETH --> API
+  SOL --> API
+  BTC --> API
+  BASE --> API
+  BNB --> API
