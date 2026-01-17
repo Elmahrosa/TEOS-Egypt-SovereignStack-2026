@@ -1,0 +1,44 @@
+flowchart TB
+  subgraph SOV["TEOS — Sovereign Stack"]
+    direction TB
+
+    subgraph L1["Identity Layer"]
+      TID["T-ID"]
+    end
+
+    subgraph L2["Governance Layer"]
+      TGOV["T-Gov"]
+    end
+
+    subgraph L3["Financial Layer"]
+      TFIN["T-Finance"]
+      TSTAKE["T-Stake"]
+    end
+
+    subgraph L4["Asset & Infrastructure"]
+      TRWA["T-RWA"]
+      TINFRA["T-Infra"]
+      TGREEN["T-Green"]
+      TWORK["T-Work"]
+    end
+
+    subgraph L5["Compliance Layer"]
+      TAUDIT["T-Audit"]
+    end
+
+    subgraph L6["Integration Layer"]
+      TAPI["T-API"]
+      TBRIDGE["T-Bridge"]
+      TFDI["T-FDI"]
+    end
+
+    TID --> TGOV --> TFIN --> TRWA
+    TRWA --> TINFRA
+    TRWA --> TGREEN
+    TRWA --> TWORK
+    TAUDIT --- TID
+    TAUDIT --- TGOV
+    TAUDIT --- TFIN
+    TAUDIT --- TRWA
+    TAPI --> TBRIDGE --> TFDI
+  end
