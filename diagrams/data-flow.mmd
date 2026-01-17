@@ -1,0 +1,19 @@
+flowchart LR
+  U["Citizen / Institution"] --> TID["T-ID"]
+  TID --> TGOV["T-Gov"]
+  TGOV --> TFIN["T-Finance"]
+  TFIN --> TRWA["T-RWA"]
+  TRWA --> TINFRA["T-Infra"]
+  TRWA --> TGREEN["T-Green"]
+  TRWA --> TWORK["T-Work"]
+
+  TAUDIT["T-Audit"] -.-> TID
+  TAUDIT -.-> TGOV
+  TAUDIT -.-> TFIN
+  TAUDIT -.-> TRWA
+  TAUDIT -.-> TINFRA
+  TAUDIT -.-> TGREEN
+  TAUDIT -.-> TWORK
+
+  TAPI["T-API"] <-->|Reporting| TAUDIT
+  TAPI --> D["Dashboards (SDG / FDI)"]
