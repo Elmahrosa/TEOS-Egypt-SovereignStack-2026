@@ -1,167 +1,136 @@
-# TEOS Pilot — Sovereign DPI Reference Architecture  
-**Concept Note (One Page)**
+# TEOS Sovereign DPI Pilot — Concept Note (One Page)
+**For Ministries, DFIs, and Development Partners**  
+**Status:** Exploratory, Non-Binding | **Version:** v1.0
+
+---
 
 ## 1. Purpose
 
-This pilot uses **TEOS** as a **sovereign Digital Public Infrastructure (DPI) reference architecture** to:
+This pilot explores **TEOS** as a **sovereign Digital Public Infrastructure (DPI) reference architecture** to strengthen:
 
-- Improve **traceability and auditability** across identity, governance, finance, and assets  
-- Provide **SDG- and FDI-aligned** monitoring via dashboards  
-- Test a **compliance-first, non-speculative Web3 posture** under existing laws and regulations  
+- Transparency and auditability of public programs
+- Governance and oversight of decisions and spending
+- SDG-aligned Monitoring & Evaluation (M&E)
+- Safer, more traceable cooperation with development and private partners
 
-The pilot is **non-disruptive**: TEOS runs alongside existing systems (ID, PFM, registries) and does **not** replace statutory systems.
-
-Reference: `docs/overview.md`, `docs/architecture.md`, `docs/compliance-framework.md`.
+The pilot is **non-disruptive**: it operates alongside existing systems and does **not** replace national ID, core banking, statutory registries, or legal mandates.
 
 ---
 
 ## 2. Pilot Scope (Illustrative)
 
-**Domain options** (select one or two to start):
+**Domain (example):** A targeted public program, such as:
+- Education (scholarships, training, skills programs)
+- Health (primary care support, maternal health, digital vouchers)
+- Infrastructure (municipal works, ports, logistics improvements)
+- Green / climate (renewable incentives, energy efficiency programs)
 
-- **Finance / Treasury:** program-linked disbursement transparency (T-Finance, T-Audit, T-API)  
-- **Infrastructure / Logistics:** ports, logistics, or public works oversight (T-Infra, T-RWA, T-Audit)  
-- **Green / ESG:** renewable or climate-related program tracking (T-Green, T-Infra, T-Audit)  
-- **Workforce / Skills:** digital labor or credentialing program (T-Work, T-ID, T-Audit)  
+**TEOS modules in scope (example):**
+- **T-ID** — Eligibility & credential layer (who is eligible, under what criteria)
+- **T-Gov** — Proposal and approval workflows (what is decided, by whom, and when)
+- **T-Finance** — Program-level disbursement logs (what was spent, linked to approvals)
+- **T-Audit** — Immutable audit logs and evidence packaging (what occurred, and how verified)
+- **T-API** — Integration with existing systems where required
 
-**Core TEOS modules in scope** (tailor per use case):
-
-- **T-ID** — eligibility and credential checks (`modules/core/T-ID.md`)  
-- **T-Gov** — proposal and decision lifecycle (`modules/core/T-Gov.md`)  
-- **T-Finance** — regulated financial record layer (`modules/core/T-Finance.md`)  
-- **T-RWA / T-Infra / T-Green / T-Work** — assets, infrastructure, ESG, workforce (`modules/core/fdi/*.md`)  
-- **T-Audit** — immutable audit trail and evidence (`modules/core/T-Audit.md`)  
-- **T-API** — integration and dashboard feeds (`modules/core/T-API.md`)  
-
-**Size and boundaries (example):**
-
-- 1 priority program or project window  
-- 1–3 participating agencies  
-- Limited, well-defined beneficiary / project set  
-- Time-bound period (e.g., 6–12 months)  
-- Use of SDG and FDI dashboards (`dashboards/sdg-dashboard.md`, `dashboards/fdi-dashboard.md`) for monitoring
+**Pilot size (example):**
+- 1–2 programs or sub-programs  
+- 1–3 participating agencies/departments  
+- Limited number of beneficiaries and institutional partners  
+- Defined start/end dates and evaluation criteria
 
 ---
 
 ## 3. Objectives & Expected Outcomes
 
 ### Primary Objectives
-
-1. Demonstrate that TEOS can provide:
-   - End-to-end **decision → disbursement → execution → audit** traceability  
-   - **Audit-ready records** aligned with compliance expectations  
-   - **SDG/FDI-tagged** monitoring data for oversight and reporting  
-
-2. Assess **institutional fit**:
-   - Alignment with legal, regulatory, and data protection frameworks (`docs/compliance-framework.md`)  
-   - Compatibility with existing systems (`docs/integrations.md`)  
-   - Clarity of roles for ministries, regulators, and audit bodies  
-
-3. Build a **shared reference** for ministries, DFIs, and partners on how Web3 can function as **DPI**, not speculation (`docs/web3-policy.md`).
+1. Demonstrate improved **traceability** from **eligibility → decision → disbursement → audit**
+2. Validate institutional fit across:
+   - governance roles and workflows  
+   - compliance and legal alignment  
+   - data protection and safeguards  
+3. Establish a shared operating model between:
+   - government agencies  
+   - DFIs/development partners  
+   - regulators and oversight institutions  
 
 ### Expected Outcomes
-
-- A documented pilot flow consistent with `diagrams/data-flow.mmd` and `diagrams/governance-flow.mmd`  
-- SDG- and sector-tagged event data (per `docs/data-model-and-events.md`, `docs/sdg-teos-matrix.md`)  
-- A pilot assessment covering:
-  - Benefits (transparency, auditability, reporting)  
-  - Risks and safeguards effectiveness (`docs/threat-model.md`)  
-  - Options for scale, adaptation, or discontinuation  
+- Documented end-to-end operational flow and controls
+- SDG- and sector-tagged data for M&E dashboards
+- Pilot evaluation report with:
+  - lessons learned  
+  - risks and mitigations  
+  - scale-up options or discontinuation recommendation  
 
 ---
 
-## 4. Key Metrics
+## 4. Key Metrics (Illustrative)
 
-Metrics should be specific to the chosen use case but can be structured as:
+### A) Transparency & Traceability
+- % of disbursements **linked to explicit approvals** (T-Gov references)
+- % of key actions with a **complete audit trail** (T-Audit coverage)
+- Average time to **reconstruct a case trail** (decision + spending + evidence)
 
-### a) Transparency & Auditability
+### B) Governance & Compliance
+- % of decisions passing through **documented workflows**
+- Count of recorded **compliance/safeguards checks**
+- Number of **exceptions/overrides**, with recorded rationale and approvals
 
-- % of program disbursements **linked to a T-Gov approval** (T-Finance ↔ T-Gov events)  
-- % of key identity, governance, and finance events with **T-Audit entries**  
-- Time required to assemble an **evidence package** for a sampled transaction or project  
+### C) Operational Efficiency
+- Cycle time: proposal → approval → disbursement (baseline vs pilot)
+- Reduction in manual reconciliation steps
+- Staff usability and workload feedback (survey-based)
 
-### b) Governance & Compliance
-
-- % of proposals passing through the full lifecycle (proposal → compliance gate → vote → execution)  
-- Number of **compliance gate passes/fails** (`ComplianceGatePassed/Failed` events)  
-- Number and treatment of **exceptions/overrides** recorded in T-Audit  
-
-### c) Operational Efficiency & Data Quality
-
-- Change in time from **proposal to recorded disbursement**  
-- Reduction in manual reconciliation steps between systems (qualitative + quantitative)  
-- Data completeness: share of pilot events tagged with **program codes and SDG codes**  
-
-### d) SDG / FDI Monitoring
-
-- Coverage of SDG tags as per `docs/sdg-teos-matrix.md`  
-- Share of relevant events with **FDI/program source** references (where applicable)  
-- Usage metrics for SDG/FDI dashboards: number of users, frequency of access, feedback
+### D) Monitoring & SDG Alignment
+- Number of events tagged to **program-relevant SDG indicators**
+- Timeliness of monitoring data available to M&E teams
+- Dashboard usage patterns (frequency + feedback)
 
 ---
 
 ## 5. Safeguards & Risk Management
 
-### Legal, Regulatory & Policy
-
-- Pilot conducted **under existing statutes and regulations**  
-- Documented **compliance mapping** (public finance, data protection, AML/CFT where relevant)  
-- Clear designation of:
-  - Data controllers and processors  
-  - Oversight and audit authorities  
-
-Reference: `docs/compliance-framework.md`, `docs/compliance.md`.
+### Legal & Policy
+- Pilot operates **under existing laws and regulations**
+- Data protection and privacy assessment prior to launch
+- Clear designation of roles (data controller, operator, oversight)
 
 ### Technical & Security
-
-- Pilot uses a **sandboxed or segmented environment**; no production cutover  
-- Implementation to follow TEOS **threat model** guidelines (`docs/threat-model.md`)  
-- Role-based access controls and logging through T-Audit; integrity anchoring patterns may use external chains (`integrations/*.md`) subject to policy  
+- Sandbox or limited-scope environment
+- Role-based access control and minimum-access principles
+- Security review of architecture and access controls
 
 ### Financial & Fiduciary
-
-- TEOS acts as a **recording and transparency layer**, not a core banking replacement (`modules/core/T-Finance.md`)  
-- No consumer-facing token, trading, or speculative functionality (`README.md`, `docs/web3-policy.md`)  
-- Existing treasury, banking, and settlement systems remain authoritative  
+- TEOS functions as a **recording and traceability layer**, not a bank
+- No speculative or volatile instruments; no consumer trading
+- Funds continue to flow through existing, regulated channels
 
 ### Governance & Accountability
-
-- Involvement of internal audit / supreme audit institution from design stage (`modules/core/T-Audit.md`)  
-- Documented **issue escalation** and pilot **pause/exit** criteria  
-- Periodic reporting to steering committee (ministries, DFIs, regulators)  
+- Defined escalation path for issues and complaints
+- Inclusion of audit and oversight institutions in review
+- Agreed protocol to pause or terminate the pilot if risks emerge
 
 ---
 
 ## 6. Roles & Responsibilities (Illustrative)
 
-- **Lead Line Ministry / Program Owner**  
-  - Defines use case, objectives, and policy parameters  
-  - Provides operational data and staff  
-
-- **Digital / ICT Authority or GovTech Unit**  
-  - Leads TEOS configuration and integrations  
-  - Applies national cybersecurity and interoperability standards  
-
-- **Ministry of Finance / Treasury**  
-  - Aligns pilot with PFM rules and reporting needs  
-  - Validates T-Finance configuration and controls  
-
-- **Regulators & Oversight Bodies**  
-  - Review safeguards, access rights, and audit flows  
-  - Use T-Audit and dashboards for independent oversight  
-
-- **DFIs / Development Partners** (where involved)  
-  - Co-design pilot metrics and SDG/FDI indicators  
-  - Support evaluation, capacity building, and independent review  
+- **Lead Ministry / Agency** — Owns use case, policy decisions, operational leadership  
+- **Digital / ICT Authority** — Technical oversight, cybersecurity, integration governance  
+- **Finance / Treasury** — Alignment with public financial management rules  
+- **Regulators & Oversight Bodies** — Safeguards review, audit readiness, evaluation input  
+- **DFIs / Development Partners** — Technical assistance, evaluation support, capacity building (as applicable)
 
 ---
 
-## 7. Illustrative Next Steps
+## 7. Next Steps (Illustrative)
 
-1. **Institutional review** of TEOS docs (`README.md`, `docs/overview.md`, `docs/architecture.md`)  
-2. Selection of **pilot program** and confirmation of legal/compliance boundaries  
-3. Detailed **requirements and risk assessment** (`docs/threat-model.md`, `docs/compliance-framework.md`)  
-4. Configuration of TEOS modules and integrations; deployment of SDG/FDI dashboards  
-5. Training of operational, oversight, and audit staff  
-6. Time-bound pilot operation with periodic check-ins  
-7. Independent evaluation and policy decision on **scale-up or closure**  
+1. Confirm pilot domain and scope  
+2. Requirements gathering and legal/compliance review  
+3. Configure TEOS modules for pilot environment  
+4. Train staff and oversight stakeholders  
+5. Run pilot with checkpoints and defined timeframe  
+6. Independent evaluation and lessons learned  
+7. Decision: scale-up, adapt and retest, or discontinue
+
+---
+
+**Disclaimer:** This concept note is provided for **exploratory institutional review only** and does not imply procurement, deployment, or policy commitments.
