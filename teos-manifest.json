@@ -6,5 +6,6 @@
                    },
     "project":  "TEOS-Egypt-SovereignStack-2026",
     "version":  "1.0.0",
-    "organization":  "Elmahrosa"
+    "organization":  "Elmahrosa",
+    "registry":  "https://github.com/Elmahrosa/elmahrosa-core.git"
 }
