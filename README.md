@@ -1,5 +1,5 @@
 ![TEOS Sovereign Standing](https://img.shields.io/badge/Standing-Sovereign%20Original%20—%20Elmahrosa%20International-blue?style=for-the-badge)
-[![License: TESL](https://img.shields.io/badge/License-TESL%20%2B%20PolyForm%20Noncommercial-green?style=for-the-badge)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)
+[![License: TESL](https://img.shields.io/badge/License-TESL_v2.0-green?style=for-the-badge)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)
 
 # 📍 Repository Standing Statement
 
@@ -7,8 +7,7 @@ This repository is a **sovereign original** under **Elmahrosa International — 
 Governance is anchored in **TEOS-FORGE**.  
 Commercial use requires **prior written approval** from Elmahrosa International.
 
-⚖️ Protected under **dual license**:  
-**PolyForm Noncommercial** + **TEOS Egypt Sovereign License (TESL)**.
+⚖️ Protected exclusively under the **TEOS Egypt Sovereign License (TESL)**.
 
 ---
 
