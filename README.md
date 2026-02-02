@@ -11,7 +11,7 @@ Commercial use requires **prior written approval** from Elmahrosa International.
 
 ---
 
-# 🏛️ TEOS — Sovereign Digital Public Infrastructure
+# 🏛️ TEOS — Sovereign Digital Public Infrastructure  
 ## v1.0 — Sovereign Stack Reference Architecture (2026)
 
 TEOS is a **sovereign Digital Public Infrastructure (DPI) reference architecture** that treats Web3 as **policy-ready, compliance-first systems** for identity, governance, regulated finance, and transparent development outcomes.
@@ -21,17 +21,40 @@ It is designed for **institutional review**, **public-sector readiness**, and **
 
 ---
 
+## 🚧 Pilot Scope (CRITICAL — Institutional Review)
+
+This repository includes a **defined pilot scope** for evaluation by governments,
+regulators, and International Financial Institutions (IFIs).
+
+**Pilot Scope**
+
+- **Target:** National ID Registry (Prototype)  
+- **Region:** Cairo — Sandbox Environment  
+- **Users:** 5,000 (Simulated Population)  
+- **Status:** Awaiting Government Review  
+
+The pilot is designed to:
+- Demonstrate **end-to-end DPI functionality**
+- Validate **compliance, auditability, and governance controls**
+- Operate **without statutory replacement or production risk**
+- Support IFI-style technical due diligence and M&E review
+
+> This scope is **intentionally bounded** to enable controlled evaluation  
+> prior to any procurement, scale-up, or national deployment decision.
+
+---
+
 ## What TEOS Is / Is Not
 
 ### TEOS *is*:
-- A sovereign DPI reference architecture
-- A modular framework for identity, governance, finance, assets, and oversight
-- A toolkit for institutional dialogue and compliance-first pilots
+- A sovereign DPI reference architecture  
+- A modular framework for identity, governance, finance, assets, and oversight  
+- A toolkit for institutional dialogue and compliance-first pilots  
 
 ### TEOS *is not*:
-- A consumer crypto platform
-- An investment product or token
-- A promise of deployment, procurement, or statutory replacement
+- A consumer crypto platform  
+- An investment product or token  
+- A promise of deployment, procurement, or statutory replacement  
 
 ---
 
@@ -86,20 +109,20 @@ TEOS uses terminology aligned with **UN / World Bank / AfDB** institutional fram
 
 ## Architecture & System Flows
 
-- Sovereign Stack Layers → `diagrams/sovereign-stack.mmd`
-- Data Flow (Identity → Governance → Finance → Audit) → `diagrams/data-flow.mmd`
-- Governance Lifecycle → `diagrams/governance-flow.mmd`
-- Integration Map → `diagrams/integrations-map.mmd`
+- Sovereign Stack Layers → `diagrams/sovereign-stack.mmd`  
+- Data Flow (Identity → Governance → Finance → Audit) → `diagrams/data-flow.mmd`  
+- Governance Lifecycle → `diagrams/governance-flow.mmd`  
+- Integration Map → `diagrams/integrations-map.mmd`  
 
 ---
 
 ## Demonstration Use Cases
 
-- Finance → `demos/finance-demo.md`
-- Health → `demos/health-demo.md`
-- Education → `demos/education-demo.md`
-- Green Energy → `demos/green-energy-demo.md`
-- Logistics → `demos/logistics-demo.md`
+- Finance → `demos/finance-demo.md`  
+- Health → `demos/health-demo.md`  
+- Education → `demos/education-demo.md`  
+- Green Energy → `demos/green-energy-demo.md`  
+- Logistics → `demos/logistics-demo.md`  
 
 ---
 
@@ -118,7 +141,7 @@ No procurement decision, deployment commitment, or statutory replacement is impl
 
 - **Version:** v1.0 — Sovereign Stack Reference Architecture  
 - **Scope:** Global, country-agnostic  
-- **Readiness:** Institution-ready  
+- **Readiness:** Pilot-ready (sandboxed)  
 - **Audience:** Governments, regulators, MDBs, DFIs, institutional partners  
 
 ---
@@ -141,6 +164,8 @@ Any future pilots are subject to applicable legal, regulatory, and institutional
 ## 🔗 Integration Summary
 
 This repository is part of the **Elmahrosa Sovereign Stack**.  
-Governance is anchored in **TEOS-FORGE**, with integrations across BankChain, ERT-LAUNCH, FPBE, and other civic modules.
+Governance is anchored in **TEOS-FORGE**, with integrations across BankChain,
+ERT-LAUNCH, FPBE, and other civic modules.
 
 See: `docs/integrations.md`
+```
