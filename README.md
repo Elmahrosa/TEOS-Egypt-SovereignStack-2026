@@ -1,171 +1,99 @@
-![TEOS Sovereign Standing](https://img.shields.io/badge/Standing-Sovereign%20Original%20—%20Elmahrosa%20International-blue?style=for-the-badge)
-[![License: TESL](https://img.shields.io/badge/License-TESL_v2.0-green?style=for-the-badge)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)
 
-# 📍 Repository Standing Statement
+<div align="center">
 
-This repository is a **sovereign original** under **Elmahrosa International — TEOS Egypt**.  
-Governance is anchored in **TEOS-FORGE**.  
-Commercial use requires **prior written approval** from Elmahrosa International.
+# 🏛️ TEOS Sovereign Stack 2026
+### National Digital Public Infrastructure (DPI) Reference Architecture
 
-⚖️ Protected exclusively under the **TEOS Egypt Sovereign License (TESL)**.
+![Standing](https://img.shields.io/badge/Standing-Sovereign%20Original%20—%20Elmahrosa%20International-blue?style=for-the-badge)
+![Role](https://img.shields.io/badge/Role-Institutional%20Pilot%20Framework-gold?style=for-the-badge)
+![License](https://img.shields.io/badge/License-TESL%20v2.0-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Pilot--Ready%20(Sandbox)-green?style=for-the-badge)
 
----
+**Policy-Ready. Compliance-First. Justice-Grade.**
 
-# 🏛️ TEOS — Sovereign Digital Public Infrastructure  
-## v1.0 — Sovereign Stack Reference Architecture (2026)
-
-TEOS is a **sovereign Digital Public Infrastructure (DPI) reference architecture** that treats Web3 as **policy-ready, compliance-first systems** for identity, governance, regulated finance, and transparent development outcomes.
-
-TEOS is **not a crypto platform** and **not a speculative product**.  
-It is designed for **institutional review**, **public-sector readiness**, and **controlled pilot scoping** under existing legal, regulatory, and procurement frameworks.
+</div>
 
 ---
 
-## 🚧 Pilot Scope (CRITICAL — Institutional Review)
+## 📍 Strategic Standing Statement
+This repository is the **Sovereign Reference Architecture** for the TEOS ecosystem. Governance is anchored in **TEOS-FORGE**, ensuring that all technical artifacts are subservient to the **International Civic Blockchain Constitution (ICBC)**.
 
-This repository includes a **defined pilot scope** for evaluation by governments,
-regulators, and International Financial Institutions (IFIs).
-
-**Pilot Scope**
-
-- **Target:** National ID Registry (Prototype)  
-- **Region:** Cairo — Sandbox Environment  
-- **Users:** 5,000 (Simulated Population)  
-- **Status:** Awaiting Government Review  
-
-The pilot is designed to:
-- Demonstrate **end-to-end DPI functionality**
-- Validate **compliance, auditability, and governance controls**
-- Operate **without statutory replacement or production risk**
-- Support IFI-style technical due diligence and M&E review
-
-> This scope is **intentionally bounded** to enable controlled evaluation  
-> prior to any procurement, scale-up, or national deployment decision.
+TEOS is **not** a speculative platform. It is a **Sovereign Digital Public Infrastructure (DPI)** framework designed for institutional review, public-sector readiness, and controlled pilots under existing legal and procurement frameworks.
 
 ---
 
-## What TEOS Is / Is Not
+## 🚧 2026 Pilot Scope (Institutional Sandbox)
+This repository contains the architecture for the **Cairo National ID & Data Exchange Sandbox**. This pilot is intentionally bounded to enable rigorous technical due diligence by regulators and International Financial Institutions (IFIs).
 
-### TEOS *is*:
-- A sovereign DPI reference architecture  
-- A modular framework for identity, governance, finance, assets, and oversight  
-- A toolkit for institutional dialogue and compliance-first pilots  
-
-### TEOS *is not*:
-- A consumer crypto platform  
-- An investment product or token  
-- A promise of deployment, procurement, or statutory replacement  
+* **Target:** National Identity Registry (High-Fidelity Prototype)
+* **Region:** Cairo Metropolitan Area (Simulated)
+* **Population:** 5,000 Verified Digital Identities
+* **Objective:** To validate end-to-end DPI functionality, including auditability, non-repudiation, and constitutional oversight.
 
 ---
 
-## Core Principles
+## ✅ The TEOS Infrastructure Definition
 
-- **Compliance-First** — audit-ready, regulation-aligned by design  
-- **Sovereignty** — national control over identity, governance, and data policy  
-- **Impact-Driven** — SDG-aligned execution with measurable outcomes  
-- **Interoperable** — integrates with legacy systems and multi-chain ecosystems  
-- **Institution-First** — designed for ministries, regulators, MDBs, DFIs, and partners  
-
----
-
-## Sovereign Stack Modules
-
-### Core
-- **T-ID** — Sovereign Digital Identity  
-- **T-Gov** — Governance & Voting  
-- **T-Finance** — Regulated Financial Infrastructure  
-- **T-RWA** — Asset Registries & Tokenization  
-- **T-Stake** — Participation & Incentives  
-- **T-Audit** — Compliance & Transparency  
-- **T-API** — Institutional Integration Layer  
-
-### FDI-Aligned Extensions (2026)
-- **T-Infra** — Ports, Logistics, Smart Cities  
-- **T-Green** — ESG, Carbon, Renewables  
-- **T-Work** — Digital Labor & Credentialing  
-- **T-Bridge** — Pan-Regional Interoperability  
-- **T-FDI** — FDI Monitoring & Compliance Dashboards  
+| TEOS is... | TEOS is NOT... |
+| :--- | :--- |
+| A modular framework for Sovereign Identity. | A consumer cryptocurrency or token. |
+| A toolkit for MDBs and DFIs to track impact. | An anonymous or permissionless network. |
+| A "Justice-Grade" registry for state assets. | A promise of statutory replacement. |
 
 ---
 
-## Policy & Development Alignment
+## 🏗️ Sovereign Stack Modules (The Building Blocks)
 
-TEOS uses terminology aligned with **UN / World Bank / AfDB** institutional frameworks:
+### **I. Core Infrastructure (Tier 1)**
+* **T-ID:** Sovereign Digital Identity (W3C DID/VC).
+* **T-Gov:** Executable Governance & Civic Ratification.
+* **T-Data:** Secure, auditable Data Exchange Mesh.
+* **T-Audit:** Real-time compliance monitoring & forensic logging.
 
-- Digital Public Infrastructure (DPI)  
-- Compliance & safeguards  
-- Monitoring & Evaluation (M&E)  
-- SDG alignment and reporting  
-
-**Reference documents:**
-- `docs/web3-policy.md`
-- `docs/sdg-alignment.md`
-- `docs/sdg-teos-matrix.md`
-- `docs/compliance-framework.md`
-- `docs/fdi-framework.md`
-- `docs/ministerial-impact-map.md`
+### **II. Strategic Extensions (Tier 2 - Evaluative)**
+* **T-Infra:** Logistics, Ports, and Smart City registries.
+* **T-Green:** ESG tracking, carbon credit registries, and renewable energy logs.
+* **T-Work:** Professional credentialing and digital labor verification.
+* **T-FDI:** Foreign Direct Investment monitoring and compliance dashboards.
 
 ---
 
-## Architecture & System Flows
+## 🌍 Institutional Alignment
+TEOS is engineered to align with global development frameworks from the **UN, World Bank, and African Development Bank (AfDB)**:
 
-- Sovereign Stack Layers → `diagrams/sovereign-stack.mmd`  
-- Data Flow (Identity → Governance → Finance → Audit) → `diagrams/data-flow.mmd`  
-- Governance Lifecycle → `diagrams/governance-flow.mmd`  
-- Integration Map → `diagrams/integrations-map.mmd`  
-
----
-
-## Demonstration Use Cases
-
-- Finance → `demos/finance-demo.md`  
-- Health → `demos/health-demo.md`  
-- Education → `demos/education-demo.md`  
-- Green Energy → `demos/green-energy-demo.md`  
-- Logistics → `demos/logistics-demo.md`  
+* **DPI Principles:** Minimalist, interoperable, and decentralized.
+* **Monitoring & Evaluation (M&E):** Real-time data for SDG impact reporting.
+* **Safeguards:** Native compliance with data protection laws (e.g., Egypt’s Law 151/2020).
 
 ---
 
-## Institutional Engagement
-
-Materials in this repository are provided for **exploratory institutional review only**.  
-No procurement decision, deployment commitment, or statutory replacement is implied.
-
-**Universal positioning statement:**
-
-> *“TEOS is a sovereign Digital Public Infrastructure reference architecture that treats Web3 as policy-ready, compliance-first systems for identity, governance, finance, and transparent development outcomes.”*
+## 📊 Architecture & Visual Logic
+Comprehensive system flows are located in the `/diagrams` directory:
+* **Sovereign Stack Layers:** `sovereign-stack.mmd`
+* **Institutional Data Flow:** `data-flow.mmd`
+* **Governance Lifecycle:** `governance-flow.mmd`
+* **Integration Ecosystem:** `integrations-map.mmd`
 
 ---
 
-## Repository Status
+## ⚖️ License & Ethical Use
+This repository and all included artifacts are governed exclusively by the **TEOS Egypt Sovereign License (TESL)**.
 
-- **Version:** v1.0 — Sovereign Stack Reference Architecture  
-- **Scope:** Global, country-agnostic  
-- **Readiness:** Pilot-ready (sandboxed)  
-- **Audience:** Governments, regulators, MDBs, DFIs, institutional partners  
-
----
-
-## Download
-
-For offline institutional review, download the full repository as a ZIP:  
-https://github.com/Elmahrosa/TEOS-Egypt-SovereignStack-2026/archive/refs/heads/main.zip
+* **Institutional Review:** Access is granted for exploratory dialogue and technical evaluation.
+* **Commercial Use:** Requires explicit authorization from Elmahrosa International.
+* **Sovereignty Guarantee:** Ensures that national data remains under national jurisdiction.
 
 ---
 
-## Disclaimer
+<div align="center">
 
-This material is shared for **exploratory institutional dialogue only**.  
-No commitments, procurement actions, or deployment decisions are implied.  
-Any future pilots are subject to applicable legal, regulatory, and institutional processes.
+**Founder & Chief Architect:** Ayman Seif  
+**Sovereign Authority:** Elmahrosa International  
 
----
+[Institutional Inquiry](mailto:ayman@teosegypt.com) | [DPI Portal](https://teosegypt.com)
 
-## 🔗 Integration Summary
+*“TEOS: Empowering Nations with Auditable, Justice-Grade Infrastructure.”*
 
-This repository is part of the **Elmahrosa Sovereign Stack**.  
-Governance is anchored in **TEOS-FORGE**, with integrations across BankChain,
-ERT-LAUNCH, FPBE, and other civic modules.
+</div>
 
-See: `docs/integrations.md`
 ```
